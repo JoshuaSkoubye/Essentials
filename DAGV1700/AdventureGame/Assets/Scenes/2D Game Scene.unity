@@ -234,7 +234,7 @@ Transform:
   m_GameObject: {fileID: 53703260}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.024749756, y: -0.09678984, z: -7.18}
+  m_LocalPosition: {x: -0.23, y: -0.09678984, z: -7.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -327,7 +327,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 12.124355
+  orthographic size: 4
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -6587,7 +6587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6019c83db43d50143b038110347fbd0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MyCharacterAnimationController
-  controller: {fileID: 0}
+  controller: {fileID: 2324587458033476901}
 --- !u!95 &2324587458033476899
 Animator:
   serializedVersion: 7
@@ -6610,6 +6610,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!143 &2324587458033476901 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 7075964515207381128, guid: 42d8bb669f8920241b07fb42791b1279, type: 3}
+  m_PrefabInstance: {fileID: 2324587458033476895}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2525635219172791930
 PrefabInstance:
   m_ObjectHideFlags: 0
