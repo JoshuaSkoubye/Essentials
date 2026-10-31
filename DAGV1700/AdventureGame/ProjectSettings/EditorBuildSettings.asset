@@ -14,11 +14,17 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ClassExamples/Unit 9 UI/Level1.unity
     guid: 5e6acbb99e42144d885b817fb6bb9264
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 99ae598fc824fc04a9dd95f87c3b3d7b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainScene Sec 001.unity
     guid: 2518def3571292d43b18a1b09175bd81
+  - enabled: 1
+    path: Assets/myscenes/mainmenu.unity
+    guid: 0190da1de7fc2754399aec649bf9cbb5
+  - enabled: 1
+    path: Assets/myscenes/2D Game Scene.unity
+    guid: 784dc637e5fa82e47b706e7997576fcf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
